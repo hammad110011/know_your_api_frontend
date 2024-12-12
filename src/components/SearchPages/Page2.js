@@ -16,7 +16,7 @@ const Page2 = () => {
         }
     
         try {
-            const response = await fetch('https://node-backend-kya-b744a7202436.herokuapp.com/api/process-text', {
+            const response = await fetch('http://localhost:5003/api/process-text', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
